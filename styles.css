@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 header,
@@ -15,10 +11,6 @@ footer {
     margin: 0 auto;
 }
 
-.grid {
-    display: grid;
-    align-items: center;
-}
 main {
     max-width: 840px;
     margin: 1rem;
@@ -71,7 +63,7 @@ h1 {
     border-bottom: 1px solid steelblue;
 }
 
-h2 {
+aside h2 {
     top: 18px;
     left: 96px;
     position: absolute;
@@ -111,7 +103,7 @@ footer {
     padding-left: 22px;
 }
 
-.heart {
-    color: red;
-    font-weight: bolder;
+.grid {
+    display: grid;
+    align-items: center;
 }
