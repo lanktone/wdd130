@@ -1,12 +1,11 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header,
-.grid,
-footer {
+header {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -44,7 +43,7 @@ nav {
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: left;
 }
 
 nav a {
@@ -56,7 +55,7 @@ nav a {
     font-weight: 700;
 }
 
-h1, h2 {
+h1 {
     color: steelblue;
     padding-left: 18px;
     margin-bottom: 4px;
@@ -64,6 +63,12 @@ h1, h2 {
 }
 
 aside h2 {
+    margin: 10px;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    font-family: Roboto;
     position: absolute;
     top: 47px;
     left: 150px;
@@ -88,9 +93,11 @@ p {
 }
 
 footer {
+    max-width: 840px;
+    margin: 0 auto;
     margin-top: 1em;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: left;
 }
 
 /* Class Selectors */
@@ -105,5 +112,7 @@ footer {
 
 .grid {
     display: grid;
-    align-items: center;
+    align-items: left;
+    max-width: 840px;
+    margin: 0 auto;
 }
