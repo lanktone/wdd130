@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    color: hotpink;
+    color: orange;
 }
 
 nav a.active {
@@ -76,6 +76,7 @@ aside {
     grid-row: 1/2;
     display: grid;
     place-items: center; 
+    grid-template-rows: auto auto;
 }
 
 aside img {
