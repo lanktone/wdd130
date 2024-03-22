@@ -70,11 +70,12 @@ p {
 
 aside {
     width: 20rem;
-    justify-content: center;
     text-align: center;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    display: grid;
+    place-items: center; 
 }
 
 aside img {
@@ -92,9 +93,6 @@ aside h2 {
     color:#fff;
     padding: 0;
     font-family: Roboto;
-    position: absolute;
-    top: 20px;
-    left: 96px;
     justify-self: center;
     z-index: 1;
 }
