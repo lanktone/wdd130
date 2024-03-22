@@ -119,3 +119,8 @@ footer {
     display: grid;
     align-items: center;
 }
+
+.heart {
+    color: red;
+    font-weight: bolder;
+}
