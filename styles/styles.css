@@ -89,12 +89,12 @@ aside img {
 aside h2 {
     font-size: 2em;
     text-align: center;
-    color:#ddd;
+    color:#fff;
     padding: 0;
     font-family: Roboto;
     position: absolute;
     top: 30px;
-    left: 125px;
+    left: 95px;
     justify-self: center;
     z-index: 1;
 }
