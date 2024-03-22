@@ -102,3 +102,8 @@ footer {
     color: #000;
     padding-left: 22px;
 }
+
+.heart {
+    color: red;
+    font-weight: bolder;
+}
