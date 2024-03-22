@@ -89,6 +89,9 @@ aside img {
 }
 
 aside h2 {
+    top: 18px;
+    left: 96px;
+    position: absolute;
     font-size: 2em;
     text-align: center;
     color:#fff;
