@@ -70,6 +70,7 @@ p {
 
 aside {
     width: 20rem;
+    justify-content: center;
     text-align: center;
     position: relative;
     grid-column: 1/2;
@@ -93,7 +94,7 @@ aside h2 {
     font-family: Roboto;
     position: absolute;
     top: 30px;
-    left: 6 rem;
+    left: 125px;
     justify-self: center;
     z-index: 1;
 }
