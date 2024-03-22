@@ -92,7 +92,7 @@ aside h2 {
     color: #fff;
     padding: 0;
     font-family: Roboto;
-    position: relative;
+    position: absolute;
     top: 47px;
     left: 150px;
 }
