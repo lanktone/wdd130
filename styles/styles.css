@@ -23,8 +23,18 @@ nav a {
     display: block;
     padding: 0.5rem;
     text-decoration: none;
+    text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+nav a:hover {
+    color: hotpink;
+}
+
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
 }
 
 main {
