@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    color: orange;
+    color: hotpink;
 }
 
 nav a.active {
