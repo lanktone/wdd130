@@ -83,6 +83,7 @@ aside img {
     border:1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    z-index: 0;
 }
 
 aside h2 {
@@ -95,6 +96,7 @@ aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
+    z-index: 1;
 }
 
 footer {
