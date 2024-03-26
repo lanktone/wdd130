@@ -89,15 +89,10 @@ header {
   border-right: 1px solid black;
 }
 
-a:last-child {
-  border-right: none;
-}
-
-.navigation a:hover a:hover {
+.navigation a:hover {
   background-color: var(--accent1-color);
   color: var(--nav-link-color);
 }
-
 
 p {
   font-family: var(--paragraph-font);
