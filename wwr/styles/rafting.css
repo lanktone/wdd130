@@ -29,36 +29,19 @@
 
 body {
   font-family: var(--paragraph-font);
-  max-width: 960px;
   padding: 20px;
-  font-size: 18px;
-  text-align: center;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}
-
-.img-container {
-  float: left;
-  width: 30%;
-  padding: 5px;
 }
 
 h1,
 h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
-  font-size: 2rem;
 }
-
 
 header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center;
-  color: var(--paragraph-color-on-color);
   background-color: var(--nav-background-color);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -66,6 +49,15 @@ header {
   grid-gap: 20px;
   border: 1px solid black;
   margin-bottom: 10px;
+
+}
+
+.logo {
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid black;
+	width: 150px;
+	height: auto;
 }
 
 .navigation {
@@ -74,15 +66,22 @@ header {
   align-items: center;
   width: fit-content;
   height: auto;
-  padding: 30px;
+  padding: 0;
   margin: 0;
-  background-color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-link-color)
+  border: 1px solid black;
 }
 
 .navigation a {
   text-decoration: none;
   color: var(--primary-color);
+  padding: 16px 32px;
   margin: 0;
+  border-right: 1px solid black;
+}
+
+.navigation a:last-child {
+  border-right: none;
 }
 
 .navigation a:hover {
@@ -93,14 +92,6 @@ header {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
-}
-
-.logo {
-  margin: 0 0.25rem 0 1rem;
-  border-radius: 50%;
-  border: 1px solid black;
-	width: 100px;
-	height: auto;
 }
 
 .hero {
@@ -123,7 +114,7 @@ p {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   font-family: var(--heading-font);
-  font-size: 14px;
+  font-size: 36px;
   color: var(--primary-color);
   text-align: center;
 }
@@ -152,6 +143,17 @@ p {
 .hero>.moto img {
   float: right;
   height: 180px;
+}
+
+.hero>.moto2 {
+  position: absolute;
+  width: 40%;
+  top: 70%;
+  right: 8%;
+  background-color: var(--accent2-color);
+  border-radius: 24px;
+  padding: 12px;
+  opacity: 0.9;
 }
 
 .history {
@@ -185,7 +187,6 @@ p {
   padding: 8px;
 }
 
-
 .adventures {
   display: flex;
   flex-wrap: wrap;
@@ -215,8 +216,6 @@ figure img {
   display: block;
   margin: 0 auto;
 }
-
-
 
 footer {
   display: flex;
