@@ -38,13 +38,11 @@ nav a {
 }
 
 h1 {
-  display: block;
-  font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  color: black;
   font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
   }
   
   form {
