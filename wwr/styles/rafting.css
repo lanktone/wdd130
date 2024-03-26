@@ -32,10 +32,14 @@ body {
   padding: 20px;
 }
 
-h1,
+h1 {
+  background-color: #4A4E69;
+  color: #fff;
+}
+
 h2 {
   font-family: var(--heading-font);
-  color: var(--accent2-color);
+  color: #4A4E69;
 }
 
 header {
@@ -117,7 +121,7 @@ p {
   width: 100%;
   font-family: var(--heading-font);
   font-size: 36px;
-  color: var(--primary-color);
+  color: #F2E9E4;
   text-align: center;
 }
 
@@ -127,6 +131,7 @@ p {
   top: 50%;
   left: 8%;
   background-color: var(--nav-background-color);
+  border-radius: 24px;
   padding: 12px;
   opacity: 0.9;
 }
@@ -144,17 +149,8 @@ p {
 
 .hero>.moto img {
   float: right;
-}
-
-.hero>.moto2 {
-  position: absolute;
-  width: 40%;
-  top: 70%;
-  right: 8%;
-  background-color: var(--accent2-color);
-  border-radius: 24px;
-  padding: 12px;
-  opacity: 0.9;
+  width: 20%;
+  height: auto;
 }
 
 .history {
@@ -220,6 +216,7 @@ figure img {
 
 figcaption {
   margin-top: 10px;
+  font: Roboto;
   font-weight: bold;
 }
 
