@@ -54,22 +54,31 @@ h2 {
   font-size: 2rem;
 }
 
+
 header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
   color: var(--paragraph-color-on-color);
-  background-color: var(--accent1-color);
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+  background-color: var(--nav-background-color);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 22px;
+  grid-gap: 20px;
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
 
 .navigation {
-	display: flex;
-	list-style: none;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+  padding: 0px;
+  margin: 0;
+  background-color: var(--nav-hover-link-color);
+  border: 1px solid black;
 }
 
 .navigation li {
@@ -77,16 +86,22 @@ header {
 }
 
 .navigation a {
-	display: block;
-	padding: 20px;
-	text-decoration: none;
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 16px 32px;
+  margin: 0;
+  border-right: 1px solid black;
 }
 
-.navigation a:hover {
-	background-color: var(--nav-hover-link-color);
-	font-weight: 700;
-	text-decoration: underline;
+a:last-child {
+  border-right: none;
 }
+
+.navigation a:hover a:hover {
+  background-color: var(--accent1-color);
+  color: var(--nav-link-color);
+}
+
 
 p {
   font-family: var(--paragraph-font);
@@ -110,12 +125,47 @@ p {
 }
 
 .hero img {
-  display: block;
   width: 100%;
-  height: auto;
-  max-width: 300px;
+  height: 100%;
   border: 1px solid black;
   margin-bottom: 10px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 2%;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  font-family: var(--heading-font);
+  font-size: 36px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.hero>.moto {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 8%;
+  background-color: var(--nav-background-color);
+  padding: 12px;
+  opacity: 0.9;
+}
+
+
+.hero>.moto p {
+  color: #fff;
+  font-family: var(--paragraph-font);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: 8px;
+}
+
+.hero>.moto img {
+  float: right;
+  height: 180px;
 }
 
 .history {
