@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> About Us | Whitewater Rafting</title>
+        <meta name="description" content="Simple contact page, made in an introductory HTML course at BYU-Idaho. The purpose of this website is to practice skills and learn about web development.">
+        <meta name="author" content="Erika Lankton">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+    <header>
+        <img src="images/logo.jpeg" alt="Rafting Site Logo" class="logo">
+        <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+      <section class="company-info">
+        <h1>Company Information</h1>
+        <p>Address: 123 Main Street, Anytown, MI 49015</p>
+        <p>Phone: </p>
+        <p>Email: contact_us@fakemail.com</p>
+
+        <!-- Embedded Google Map -->
+        <div class="google-map">
+          <iframe
+            src="https://maps.app.goo.gl/TV68FEqTASP3VGTD9"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <!-- Employee Profiles -->
+      <section>
+        <h2 class="flex">Meet Our Team</h2>
+        <div class="employee-profiles">
+          <div class="employee">
+            <img src="images/employee1.png" alt="Chief Exec" />
+            <p>Caption: Jane Doe - CEO</p>
+          </div>
+          <div class="employee">
+            <img src="images/employee2.jpg" alt="Human Resources" />
+            <p>Caption: Holland Ross - HR</p>
+          </div>
+          <div class="employee">
+            <img src="images/employee3.jpg" alt="Designer" />
+            <p>Caption: Emily Webber - Web Design</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label>Purpose of Message:</label>
+          <br /><br />
+          <input
+            type="radio"
+            id="generalInquiry"
+            name="purpose"
+            value="General Inquiry"
+            checked
+          />
+          <label for="generalInquiry">General Inquiry</label>
+
+          <input
+            type="radio"
+            id="reservationQuestion"
+            name="purpose"
+            value="Reservation Question"
+          />
+          <label for="reservationQuestion">Reservation Question</label>
+
+          <input
+            type="radio"
+            id="websiteSuggestion"
+            name="purpose"
+            value="Website Suggestion"
+          />
+          <label for="websiteSuggestion">Website Suggestion</label>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+          <label for="subscribe"
+            >Please subscribe me to the monthly newsletter</label
+          >
+
+          <button type="submit" id="submitButton">Submit</button>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+        <p>&copy;2024 🌸 Whitewater Rafting Contact Us 🌸 Erika Lankton 🌸 WDD 130</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="./images/twitter.svg" alt="Twitter">
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
