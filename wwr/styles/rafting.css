@@ -332,3 +332,223 @@ select {
 .newsletterbutton {
   background-color: var(--accent2-color) !important;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+  --heading-font: "Popins", sans-serif;
+  --paragraph-font: "Roboto", sans-serif;
+  --nav-bg-color: #396e94;
+  --nav-link-color: #fff;
+  --nav-hover-link-color: #aabd8c;
+  --nav-hover-active-link-color: #444994;
+  --nav-hover-bg-color: #381d2a;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+header {
+  padding: 10px;
+  background-color: var(--primary-color);
+}
+header img {
+  width: 140px;
+}
+
+p {
+  padding: 10px;
+}
+
+nav {
+  background-color: var(--nav-bg-color);
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-bg-color);
+}
+nav a:active {
+  color: var(--nav-hover-active-link-color);
+  background-color: var(--nav-hover-bg-color);
+}
+
+footer {
+  margin-top: 1rem;
+  border-top: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.hero {
+  color: black;
+}
+.hero img {
+  display: block;
+  height: auto;
+}
+.image {
+  width: 100%;
+}
+h1 {
+  position: absolute;
+  top: 40%;
+}
+article {
+  position: absolute;
+  top: 50%;
+  color: black;
+  background-color: rgba(123, 123, 194, 0.363);
+  font-size: 24px;
+}
+article img {
+  float: right;
+  width: 20%;
+}
+
+section img {
+  width: 30%;
+}
+header {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  background-color: steelblue;
+  padding: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ----- CONTACT US PAGE STYLE ----- */
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  width: 40%;
+  margin: auto;
+}
+
+.figureImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+.company-info {
+  margin-bottom: 20px;
+}
+
+.google-map {
+  width: 600px;
+  height: 450px;
+}
+
+.employee-profiles {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.employee {
+  text-align: center;
+}
+
+.employee img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Add styles for Contact Form section */
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form input {
+  margin-bottom: 2rem;
+}
+
+.contact-form form {
+  max-width: 500px;
+}
+.contact-form h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #2980b9;
+}
+
+.contact-form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3498db;
+}

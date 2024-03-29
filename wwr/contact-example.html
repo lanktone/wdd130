@@ -70,56 +70,60 @@
         </div>
       </section>
 
-      <!-- Contact Form -->
-      <section class="contact-form">
-        <h2>Contact Us</h2>
-        <form action="submit_form.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
+      <form>
+        <label for="name">First name</label>
+        <input type="text" class="name" id="name" placeholder="Ada">
+        <br>
+        <br>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+        <label for="lastname">Last name</label>
+        <input type="text" class="lastname" id="lastname" placeholder="Lovelace">
+        <br>
+        <br>
 
-          <label>Purpose of Message:</label>
-          <br /><br />
-          <input
-            type="radio"
-            id="generalInquiry"
-            name="purpose"
-            value="General Inquiry"
-            checked
-          />
-          <label for="generalInquiry">General Inquiry</label>
+        <label for="email">E-mail</label>
+        <br>
+        <input type="email" class="email" id="email" placeholder="ada@lovelaceweb.com">
+        <br>
+        <br>
 
-          <input
-            type="radio"
-            id="reservationQuestion"
-            name="purpose"
-            value="Reservation Question"
-          />
-          <label for="reservationQuestion">Reservation Question</label>
+        <div class="radio-group">
+            <label>Purpose of your message:</label>
+            <br>
+            <input type="radio" id="generalInquiry" name="purpose" value="General Inquiry">
+            <label for="generalInquiry">General Inquiry</label><br>
 
-          <input
-            type="radio"
-            id="websiteSuggestion"
-            name="purpose"
-            value="Website Suggestion"
-          />
-          <label for="websiteSuggestion">Website Suggestion</label>
+            <input type="radio" id="reservationQuestion" name="purpose" value="Reservation Question">
+            <label for="reservationQuestion">Reservation Question</label><br>
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="radio" id="websiteSuggestion" name="purpose" value="Website Suggestion">
+            <label for="websiteSuggestion">Website Suggestion</label>
+        </div>
+        <br>
+        <label for="message">Your message:</label>
+        <br>
+        <textarea class="message" id="message" rows="20"></textarea>
+        <br>
+        <label>
+            <input type="checkbox" name="subscribeNewsletter" value="yes">
+            Please subscribe me to the monthly newsletter
+        </label>
+        <br>
+        <br>
+        <input class="contactContentbutton" type="submit" value="Send Message">
 
-          <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
-          <label for="subscribe"
-            >Please subscribe me to the monthly newsletter</label
-          >
+    </form>
+</div>
+</section>
 
-          <button type="submit" id="submitButton">Submit</button>
-        </form>
-      </section>
-    </main>
-    
+</main>
+  </form>
+</div>
+</section>
+
+</main>
+
+
     <footer>
         <p>&copy;2024 🌸 Whitewater Rafting Contact Us 🌸 Erika Lankton 🌸 WDD 130</p>
         <nav class="sociallinks">
