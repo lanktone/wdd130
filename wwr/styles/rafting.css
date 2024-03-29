@@ -184,6 +184,12 @@ p {
   height: 100%;
   border: 1px solid black;
   margin-bottom: 10px;
+  max-width: 1000;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 8px;
 }
 
 .contact-hero h1 {
@@ -207,15 +213,6 @@ p {
   text-align: left;
   font-size: 1.3rem;
   line-height: 1.8rem;
-  padding: 8px;
-}
-
-.content img {
-  max-width: 100%;
-  max-height: 300px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
   padding: 8px;
 }
 
