@@ -293,7 +293,7 @@ select {
 .radio-group {
   display: block;
   gap: 5px;
-  align-items: left;
+  align-content: flex-start;
 }
 
 .radio-group input[type="radio"] {
