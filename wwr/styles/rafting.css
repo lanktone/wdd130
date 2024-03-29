@@ -257,11 +257,32 @@ footer p {
   height: 30px;
 }
 
-/* ----- CONTACT US PAGE STYLE ----- */
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contact-intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.contact-hero-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+  z-index: -1;
+}
+.contact-msg{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: left;
+  margin: 0px;
+}
+.contact-title {
+  color: var(--headline-color-on-color);
+  text-shadow: 0 0 3px #000, 0 0 5px #000;
+  font-size: 3em;
+  padding: 20px 0px 0px 20px;
+  margin: 0px;
 }
 
 .company-info {
@@ -290,12 +311,14 @@ footer p {
   margin-bottom: 10px;
 }
 
-/* Add styles for Contact Form section */
 .contact-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
 }
 .contact-form input {
   margin-bottom: 2rem;
@@ -317,20 +340,18 @@ footer p {
 }
 
 .contact-form button {
-  background-color: #9A8C98;
+  background-color: var(--primary-color);
   color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  align-self: center;
+  padding: 10px;
+  height: 25px;
+  width: 190px;
   cursor: pointer;
-  font-size: 16px;
 }
 
 .contact-form button:hover {
-  background-color: #2980b9;
-}
-
-.contact-form button:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #3498db;
+  background-color: #3498db;
 }
