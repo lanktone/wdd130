@@ -259,7 +259,7 @@ footer p {
   height: 30px;
 }
 
-/*CONTACT US PAGE STYLES*/
+/*CONTACT US PAGE*/
 .contactContent {
   display: grid;
   grid-template-columns: 1fr 50%;
