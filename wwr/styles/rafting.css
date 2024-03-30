@@ -268,7 +268,7 @@ footer p {
 }
 
 .contact-hero img {
-  width: 350px;
+  max-width: 1000px;
   height: auto;
   border: 1px solid black;
   margin-bottom: 10px;
