@@ -32,7 +32,7 @@ body {
   padding: 20px;
 }
 
-h1, h3 {
+h1 {
   background-color: #4A4E69;
   color: white;
   text-align: center;
@@ -144,7 +144,6 @@ p {
   opacity: 0.9;
 }
 
-
 .hero>.moto p {
   color: white;
   font-family: var(--paragraph-font);
@@ -173,20 +172,20 @@ p {
   margin-bottom: 20px;
 }
 
-.content {
+.hiscontent {
   display: grid;
   grid-template-columns: 1fr 40% 1fr;
   gap: 10px;
 }
 
-.content p {
+.hiscontent p {
   text-align: left;
   font-size: 1.3rem;
   line-height: 1.8rem;
   padding: 8px;
 }
 
-.content img {
+.hiscontent img {
   max-width: 100%;
   max-height: 300px;
   display: block;
@@ -259,8 +258,7 @@ footer p {
   height: 30px;
 }
 
-/*CONTACT US PAGE*/
-.contactContent {
+.contact-hero {
   display: grid;
   grid-template-columns: 1fr 50%;
   gap: 10px;
@@ -269,15 +267,30 @@ footer p {
   margin-top: 12px;
 }
 
-.contactContent h2 {
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 18px;
-}
-
-.contactContent img {
+.contact-hero img {
   width: 350px;
   height: auto;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.contact-hero h1 {
+  position: absolute;
+  top: 2%;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  font-family: var(--heading-font);
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+.contact-hero h2 {
+  color: white;
+  text-align: right;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .contactContent label,
@@ -331,13 +344,6 @@ select {
 .newsletterbutton {
   background-color: var(--accent2-color) !important;
 }
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* ----- CONTACT US PAGE STYLE ----- */
 
 figure {
   border: thin white solid;
