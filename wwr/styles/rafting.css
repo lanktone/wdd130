@@ -258,13 +258,12 @@ footer p {
   height: 30px;
 }
 
+
 .contact-hero {
-  display: grid;
-  grid-template-columns: 1fr 50%;
-  gap: 10px;
-  text-align: left !important;
-  line-height: 2rem;
-  margin-top: 12px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0;
 }
 
 .contact-hero img {
