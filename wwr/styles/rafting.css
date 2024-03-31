@@ -259,10 +259,9 @@ footer p {
 }
 
 .content-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .company-info {
@@ -294,15 +293,14 @@ footer p {
 }
 
 .employee-profiles {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; 
-  margin-top: 20px;
- }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .employee-profiles h2 {
   color: #4A4E69;
-  column-span: all;
+  justify-content: center;
   text-align: center;
   width: 100%;
   padding: 20px;
@@ -310,7 +308,7 @@ footer p {
 }
 
 .employee-profiles p {
-  text-align: left;
+  text-align: center;
   font-size: 1.3rem;
   line-height: 1.8rem;
   padding: 8px;
