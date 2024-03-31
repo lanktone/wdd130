@@ -273,6 +273,12 @@ footer p {
   width: calc(50% - 20px);
 }
 
+.company-info h2 {
+  color: #4A4E69;
+  justify-content: center;
+  text-align: center; 
+}
+
 .employee-profiles {
   display: flex;
   flex-wrap: wrap;
