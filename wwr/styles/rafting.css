@@ -258,22 +258,6 @@ footer p {
   height: 30px;
 }
 
-.company-info, .google-map {
-  display: flex;
-  gap: 10px;
-  border: 1px solid whitesmoke; 
-  border-radius: 10px; 
-  padding: 20px; 
-  margin: 20px; 
-  float: left;
-}
-
-.company-info h2 {
-  color: #4A4E69;
-  justify-content: center;
-  text-align: center; 
-}
-
 .employee-profiles {
   display: flex;
   flex-wrap: wrap;
@@ -309,6 +293,34 @@ footer p {
   margin-bottom: 10px;
 }
 
+
+.contact {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 20% 10% 10% 10% 20% 30%;
+  gap: 10px;
+  border: 1px solid whitesmoke; 
+  border-radius: 10px; 
+  padding: 20px; 
+  margin: 20px; 
+}
+
+.company-info {
+  grid-area: 1 / 1 / 5 / 2;
+}
+
+.company-info h2 {
+  color: #4A4E69;
+  justify-content: center;
+  text-align: center; 
+  grid-area: 1 / 1 / 2 / 2
+}
+
+.google-map {
+  grid-area: 5 / 1 / 7 / 2;
+}
+
+
 .contact-form h2 {
   font-family: var(--heading-font);
   color: #4A4E69;
@@ -319,14 +331,14 @@ footer p {
 }
 
 .contact-form {
-  display: flex;
+  display: grid;
   background-color: #C9ADA7;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
   width: 100%;
   padding: 20px; 
   margin: 20px; 
-  float: right;
+  grid-area: 1 / 2 / 7 / 3;
 }
 
 .form-group {
