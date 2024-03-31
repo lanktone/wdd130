@@ -259,7 +259,7 @@ footer p {
 }
 
 .company-info, .google-map {
-  display: flexbox;
+  display: flex;
   gap: 10px;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
