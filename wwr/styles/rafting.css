@@ -258,7 +258,7 @@ footer p {
   height: 30px;
 }
 
-.company-info, .contact-form, .google-map {
+.company-info, .google-map {
   display: grid;
   grid-template:  30% 70% / 50% 50%;
   gap: 10px;
@@ -319,6 +319,8 @@ footer p {
 }
 
 .contact-form {
+  display: grid;
+  grid-template:  30% 70% / 50% 50%;
   background-color: #C9ADA7;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
