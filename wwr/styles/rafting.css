@@ -271,9 +271,8 @@ footer p {
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
-  flex: 0 0 auto; 
+  flex: 0 0 calc(50% - 20px); 
 }
-
 .company-info h2 {
   color: #4A4E69;
   justify-content: center;
