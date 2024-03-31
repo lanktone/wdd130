@@ -258,6 +258,13 @@ footer p {
   height: 30px;
 }
 
+.content-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
 .company-info {
   display: flex;
   justify-content: space-between;
@@ -347,7 +354,7 @@ footer p {
 .contact-form label {
   display: block;
   font-weight: bold;
-  text-wrap: wrap ;
+  text-wrap: balance;
   text-align: left;
 }
 
