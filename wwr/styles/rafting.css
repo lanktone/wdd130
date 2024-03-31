@@ -327,7 +327,8 @@ footer p {
 .contact-form label {
   display: block;
   font-weight: bold;
-  text-align: center;
+  text-wrap: wrap ;
+  text-align: left;
 }
 
 .contact-form input[type="text"],
