@@ -259,19 +259,15 @@ footer p {
 }
 
 .content-main {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template:  50% 50% / 50% 50%;
 }
 
 .company-info, .google-map {
-  justify-content: space-between;
-  align-items: flex-start;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
-  width: 30%;
-  float: right;
 }
 .company-info h2 {
   color: #4A4E69;
