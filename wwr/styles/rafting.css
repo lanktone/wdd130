@@ -271,7 +271,7 @@ footer p {
   padding: 20px; 
   margin: 20px; 
   width: 30%;
-  flex: 0 0 calc(30% - 20px); 
+  float: right;
 }
 .company-info h2 {
   color: #4A4E69;
@@ -330,8 +330,7 @@ footer p {
   width: 70%;
   padding: 20px; 
   margin: 20px; 
-  flex-basis: calc(30% - 40px); 
-  flex: 0 0 auto; 
+  float: left;
 }
 
 .form-group {
