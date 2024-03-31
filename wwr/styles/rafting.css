@@ -301,6 +301,13 @@ footer p {
   margin-bottom: 20px;
 }
 
+.employee-profiles p {
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 8px;
+}
+
 .employee {
   text-align: center;
   margin: 20px;
