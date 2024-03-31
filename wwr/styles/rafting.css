@@ -263,7 +263,7 @@ footer p {
   justify-content: space-between;
 }
 
-.company-info, google-map {
+.company-info, .google-map {
   justify-content: space-between;
   align-items: flex-start;
   border: 1px solid whitesmoke; 
@@ -271,6 +271,7 @@ footer p {
   padding: 20px; 
   margin: 20px; 
   width: calc(50% - 20px);
+  flex: 1 0 auto; 
 }
 
 .company-info h2 {
@@ -330,6 +331,7 @@ footer p {
   padding: 20px; 
   margin: 20px; 
   flex-basis: calc(40% - 20px); 
+  flex: 1 0 auto; 
 }
 
 .form-group {
