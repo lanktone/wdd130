@@ -49,7 +49,7 @@ h2 {
 
 header {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100vw, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-self: center;
   background-color: var(--nav-background-color);
   color: var(--nav-link-color);
