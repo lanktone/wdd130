@@ -41,6 +41,7 @@ h1, h3 {
 h2 {
   font-family: var(--heading-font);
   color: #4A4E69;
+  text-align: center;
 }
 
 header {
@@ -258,7 +259,9 @@ footer p {
 }
 
 .company-info {
-  grid-column: 2 / 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
   padding: 20px; 
@@ -269,7 +272,9 @@ footer p {
 }
 
 .google-map {
-  grid-column: 2 / 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
   padding: 20px; 
@@ -309,8 +314,16 @@ footer p {
   margin-bottom: 10px;
 }
 
+.contact-form h2 {
+  font-family: var(--heading-font);
+  color: #4A4E69;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
 .contact-form {
-  grid-column: 1 / 2;
   background-color: #9A8C98;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
