@@ -264,7 +264,7 @@ footer p {
   padding: 20px; 
   margin: 20px; 
   position: relative;
-  align-self: self-end;
+  right: 50%;
   width: calc(50% - 40px);
 }
 
@@ -275,7 +275,7 @@ footer p {
   padding: 20px; 
   margin: 20px; 
   position: relative;
-  align-self: self-end;
+  right: 50%;
   width: calc(50% - 40px);
 }
 
