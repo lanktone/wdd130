@@ -260,13 +260,11 @@ footer p {
 
 .content-main {
   display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .company-info {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
   justify-content: space-between;
   align-items: flex-start;
   border: 1px solid whitesmoke; 
@@ -279,8 +277,6 @@ footer p {
 }
 
 .google-map {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
   justify-content: space-between;
   align-items: flex-start;
   border: 1px solid whitesmoke; 
@@ -293,9 +289,9 @@ footer p {
 }
 
 .employee-profiles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .employee-profiles h2 {
