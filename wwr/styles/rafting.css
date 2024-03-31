@@ -323,53 +323,43 @@ footer p {
 }
 
 .contact-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.contact-form input {
-  margin-bottom: 2rem;
+  margin-top: 20px;
 }
 
-.contact-form form {
-  max-width: 500px;
-}
-.contact-form h2 {
-  display: flex;
-  justify-content: center;
+.form-group {
+  margin-bottom: 15px;
 }
 
-.contact-form label,
-input[type="text"],
-input[type="email"],
-textarea,
-select {
-  padding: 6px;
-  width: 90%;
+.contact-form label {
+  display: block;
   font-weight: bold;
 }
 
-.contact-form textarea {
+.contact-form input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
   padding: 8px;
-  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
   box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contact-form input[type="checkbox"] {
+  margin-right: 5px;
 }
 
 .contact-form button {
-  background-color: #9A8C98;
+  padding: 10px 20px;
+  background-color: #007bff;
   color: #fff;
-  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
 }
 
-.contact-form button:hover {
-  background-color: #2980b9;
-  outline: none;
-  box-shadow: 0 0 0 2px #3498db;
+button:hover {
+  background-color: #9A8C98;
 }
-
