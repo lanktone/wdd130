@@ -258,14 +258,41 @@ footer p {
   height: 30px;
 }
 
+
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.contact-hero img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.contact-hero h1 {
+  position: absolute;
+  top: 5%;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  font-family: var(--heading-font);
+  font-size: 36px;
+  color: #F2E9E4;
+  text-align: center;
+}
+
 .company-info, .google-map {
-  display: grid;
-  grid-template:  30% 70% / 50% 50%;
+  display: flexbox;
   gap: 10px;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
+  float: left;
 }
 
 .company-info h2 {
@@ -319,8 +346,7 @@ footer p {
 }
 
 .contact-form {
-  display: grid;
-  grid-template:  30% 70% / 50% 50%;
+  display: flex;
   background-color: #C9ADA7;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
