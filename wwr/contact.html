@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
+  <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title> Contact Us | Whitewater Rafting</title>
         <meta name="description" content="Simple contact page, made in an introductory HTML course at BYU-Idaho. The purpose of this website is to practice skills and learn about web development.">
         <meta name="author" content="Erika Lankton">
         <link rel="stylesheet" href="styles/rafting.css">
-    </head>
-    <body>
+  </head>
+  <body>
     <header>
         <img src="images/logo.jpeg" alt="Rafting Site Logo" class="logo">
         <nav class="navigation">
@@ -21,73 +21,70 @@
     <main>
       <section class="contact-hero">
           <img class="contact-hero-img" src="images/contact-hero.jpg" alt="Contact Us">
-              <h1>Contact Us</h1>
+          <h1>Contact Us</h1>
       </section>
-
+  
       <section class="employee-profiles">
           <h2>Meet Our Team</h2>
           <div class="employee">
-            <img src="images/employee1.jpg" alt="Chief Exec" />
-            <p>Jane Doe - President & CEO</p>
+              <img src="images/employee1.jpg" alt="Chief Exec">
+              <p>Jane Doe - President & CEO</p>
           </div>
           <div class="employee">
-            <img src="images/employee2.jpg" alt="Human Resources" />
-            <p>Holland Ross - Human Resources</p>
+              <img src="images/employee2.jpg" alt="Human Resources">
+              <p>Holland Ross - Human Resources</p>
           </div>
           <div class="employee">
-            <img src="images/employee3.jpg" alt="Designer" />
-            <p>Emily Webber - Web Designer</p>
+              <img src="images/employee3.jpg" alt="Designer">
+              <p>Emily Webber - Web Designer</p>
           </div>
-        </div>
       </section>
-
-      <!-- Contact Form -->
+  
       <section class="contact-form">
-        <h2>Contact Us</h2>
-        <form action="submit_form.php" method="post">
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label>Purpose of Message:</label><br>
-            <input type="radio" id="generalInquiry" name="purpose" value="General Inquiry" checked>
-            <label for="generalInquiry">General Inquiry</label><br>
-            <input type="radio" id="reservationQuestion" name="purpose" value="Reservation Question">
-            <label for="reservationQuestion">Reservation Question</label><br>
-            <input type="radio" id="websiteSuggestion" name="purpose" value="Website Suggestion">
-            <label for="websiteSuggestion">Website Suggestion</label>
-          </div>
-          <div class="form-group">
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </div>
-          <div class="form-group">
-            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-          </div>
-          <button type="submit" id="submitButton">Submit</button>
-        </form>
+          <h2>Contact Form</h2>
+          <form action="submit_form.php" method="post">
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label>Purpose of Message:</label><br>
+                  <input type="radio" id="generalInquiry" name="purpose" value="General Inquiry" checked>
+                  <label for="generalInquiry">General Inquiry</label><br>
+                  <input type="radio" id="reservationQuestion" name="purpose" value="Reservation Question">
+                  <label for="reservationQuestion">Reservation Question</label><br>
+                  <input type="radio" id="websiteSuggestion" name="purpose" value="Website Suggestion">
+                  <label for="websiteSuggestion">Website Suggestion</label>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <div class="form-group">
+                  <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                  <label for="subscribe">Subscribe to the monthly newsletter</label>
+              </div>
+              <button type="submit" id="submitButton">Submit</button>
+          </form>
       </section>
-      
+  
       <section class="company-info">
-      <h2>Company Information</h2>
-        <p>Address: 123 Main Street, Anytown, MI 49015</p>
-        <p>Phone: (517) 555-1234</p>
-        <p>Email: contact_us@fakemail.com</p>
+          <h2>Company Information</h2>
+          <p>Address: 123 Main Street, Anytown, MI 49015</p>
+          <p>Phone: (517) 555-1234</p>
+          <p>Email: contact_us@fakemail.com</p>
       </section>
-        <!-- Embedded Google Map -->
-        <div class="google-map">
+  
+      <section class="google-map">
+          <!-- Embedded Google Map -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.763191652284!2d-84.99914132490095!3d42.34757193589201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8817fdd9438a3f6d%3A0x39475f41a970ad00!2sCornwell&#39;s%20Turkeyville!5e0!3m2!1sen!2sus!4v1711692983374!5m2!1sen!2sus" 
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </main>
-    
     <footer>
         <p>&copy;2024 🌸 Whitewater Rafting Contact Us 🌸 Erika Lankton 🌸 WDD 130</p>
         <nav class="sociallinks">

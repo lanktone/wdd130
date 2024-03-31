@@ -285,9 +285,11 @@ footer p {
 
 .company-info {
   margin-bottom: 20px;
+  grid-column: 2 / 3;
 }
 
 .google-map {
+  grid-column: 2 / 3;
   width: 600px;
   height: 450px;
 }
@@ -303,8 +305,18 @@ footer p {
   gap: 2rem;
 }
 
+/*
+.employee-profiles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  flex-wrap: wrap;
+  margin-top: 20px;
+ }
+*/
+
 .employee-profiles h2 {
-  color: #9A8C98;
+  color: #4A4E69;
   text-align: center;
   width: 100%;
   padding: 20px;
@@ -313,6 +325,8 @@ footer p {
 
 .employee {
   text-align: center;
+  margin: 20px;
+  flex: 1 1 30%;
 }
 
 .employee img {
@@ -323,11 +337,30 @@ footer p {
 }
 
 .contact-form {
-  margin-top: 20px;
+  grid-column: 1 / 2;
+  background-color: #9A8C98;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  padding: 20px; 
+  margin: 20px; 
+  position: absolute;
+  width: calc(100% - 40px);
+}
+
+.contact-form:before {
+  content: '';
+  position: absolute;
+  top: -10px; /* Adjust as needed */
+  left: 50%; /* Position at the left */
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ccc transparent; /* Border color for the arrow */
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .contact-form label {
@@ -339,7 +372,7 @@ footer p {
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
   box-sizing: border-box;
