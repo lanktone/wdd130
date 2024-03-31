@@ -297,12 +297,10 @@ footer p {
 .employee-profiles {
   display: flex;
   justify-content: space-between;
-  max-width: 80%; 
+  max-width: 100%; 
   margin: 0 auto; 
   margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 /*
@@ -330,9 +328,9 @@ footer p {
 }
 
 .employee img {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 25%;
   margin-bottom: 10px;
 }
 
@@ -344,7 +342,7 @@ footer p {
   padding: 20px; 
   margin: 20px; 
   position: absolute;
-  width: calc(100% - 40px);
+  width: calc(50% - 40px);
 }
 
 .contact-form:before {
