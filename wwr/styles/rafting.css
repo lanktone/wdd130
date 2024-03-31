@@ -260,11 +260,11 @@ footer p {
 
 .company-info {
   margin-bottom: 20px;
-  grid-column: 2 / 3;
+  grid-column: 3 / 4;
 }
 
 .google-map {
-  grid-column: 2 / 3;
+  grid-column: 3 / 4;
   width: 600px;
   height: 450px;
 }
@@ -290,6 +290,7 @@ footer p {
 
 .employee-profiles h2 {
   color: #4A4E69;
+  column-span: center;
   text-align: center;
   width: 100%;
   padding: 20px;
