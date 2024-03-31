@@ -271,8 +271,8 @@ footer p {
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
-  width: 50%;
-  flex: 0 0 calc(50% - 20px); 
+  width: 40%;
+  flex: 0 0 calc(40% - 20px); 
 }
 .company-info h2 {
   color: #4A4E69;
@@ -290,7 +290,7 @@ footer p {
   color: #4A4E69;
   justify-content: center;
   text-align: center;
-  width: 50%;
+  width: 30%;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -309,7 +309,7 @@ footer p {
 }
 
 .employee img {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
   border-radius: 25%;
   margin-bottom: 10px;
@@ -319,7 +319,7 @@ footer p {
   font-family: var(--heading-font);
   color: #4A4E69;
   text-align: center;
-  width: 50%;
+  width: 40%;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -328,7 +328,7 @@ footer p {
   background-color: #C9ADA7;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
-  width: 50%;
+  width: 40%;
   padding: 20px; 
   margin: 200px; 
   flex-basis: calc(50% - 400px); 
@@ -348,7 +348,7 @@ footer p {
 .contact-form input[type="text"],
 input[type="email"],
 textarea {
-  width: 50%;
+  width: 40%;
   padding: 50px;
   border: 1px solid #C9ADA7;
   border-radius: 5px;
