@@ -259,11 +259,12 @@ footer p {
 
 .company-info {
   margin-bottom: 20px;
-  grid-column: 3 / 4;
+  grid-column: 2 / 3;
+  grid-auto-rows: (auto-fit, minmax(200px, 1fr));
 }
 
 .google-map {
-  grid-column: 3 / 4;
+  grid-column: 2 / 3;
   width: 600px;
   height: 450px;
 }
@@ -309,18 +310,6 @@ footer p {
   width: calc(50% - 40px);
 }
 
-.contact-form:before {
-  content: '';
-  position: relative;
-  top: -10px; /* Adjust as needed */
-  left: 50%; /* Position at the left */
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 10px 10px 10px;
-  border-color: transparent transparent #ccc transparent; /* Border color for the arrow */
-}
-
 .form-group {
   margin-bottom: 10px;
 }
@@ -334,7 +323,7 @@ footer p {
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 10px;
+  padding: 0px;
   border: 1px solid black;
   border-radius: 5px;
   box-sizing: border-box;
