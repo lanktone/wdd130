@@ -271,7 +271,7 @@ footer p {
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
-  flex: 0 0 calc(50% - 20px); 
+  flex: 1 1 calc(50% - 20px); 
 }
 .company-info h2 {
   color: #4A4E69;
@@ -328,8 +328,8 @@ footer p {
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
   padding: 20px; 
-  margin: 20px; 
-  flex-basis: calc(40% - 20px); 
+  margin: 100px; 
+  flex-basis: calc(50% - 200px); 
   flex: 0 0 auto; 
 }
 
