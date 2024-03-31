@@ -264,16 +264,18 @@ footer p {
   padding: 20px; 
   margin: 20px; 
   position: relative;
+  align-self: self-end;
   width: calc(50% - 40px);
 }
 
 .google-map {
   grid-column: 2 / 3;
-  border: 1px solid black; 
+  border: 1px solid whitesmoke; 
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
   position: relative;
+  align-self: self-end;
   width: calc(50% - 40px);
 }
 
@@ -310,7 +312,7 @@ footer p {
 .contact-form {
   grid-column: 1 / 2;
   background-color: #9A8C98;
-  border: 1px solid #ccc; 
+  border: 1px solid whitesmoke; 
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
@@ -325,6 +327,7 @@ footer p {
 .contact-form label {
   display: block;
   font-weight: bold;
+  
 }
 
 .contact-form input[type="text"],
@@ -332,10 +335,11 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 0px;
-  border: 1px solid black;
+  border: 1px solid #9A8C98;
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 16px;
+  line-height: 1.6;
 }
 
 .contact-form input[type="checkbox"] {
