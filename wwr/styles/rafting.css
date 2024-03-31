@@ -102,7 +102,6 @@ p {
 }
 
 .hero {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   position: relative;
   width: 100%;
   height: auto;
@@ -110,7 +109,6 @@ p {
 }
 
 .hero img {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   border: 1px solid black;
   margin-bottom: 10px;
 }
@@ -271,22 +269,11 @@ footer p {
 
 .employee-profiles {
   display: flex;
-  justify-content: space-between;
-  max-width: 100%; 
-  margin: 0 auto; 
-  margin-bottom: 30px;
-  gap: 1rem;
-}
-
-/*
-.employee-profiles {
-  display: flex;
   justify-content: center;
   align-items: flex-start; 
   flex-wrap: wrap;
   margin-top: 20px;
  }
-*/
 
 .employee-profiles h2 {
   color: #4A4E69;
@@ -317,13 +304,13 @@ footer p {
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
-  position: absolute;
+  position: relative;
   width: calc(50% - 40px);
 }
 
 .contact-form:before {
   content: '';
-  position: absolute;
+  position: relative;
   top: -10px; /* Adjust as needed */
   left: 50%; /* Position at the left */
   width: 0;
