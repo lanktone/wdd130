@@ -30,6 +30,10 @@
 body {
   font-family: var(--paragraph-font);
   padding: 20px;
+  margin: 0;
+  display: flex;
+  height: 100vh; /* Ensure full viewport height */
+  background-color: #f0f0f0; 
 }
 
 h1 {
