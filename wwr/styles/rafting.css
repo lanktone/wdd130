@@ -261,7 +261,6 @@ footer p {
 .content-main {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .company-info, .google-map {
@@ -319,7 +318,7 @@ footer p {
   font-family: var(--heading-font);
   color: #4A4E69;
   text-align: center;
-  width: 30%;
+  width: 70%;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -328,7 +327,7 @@ footer p {
   background-color: #C9ADA7;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
-  width: 30%;
+  width: 70%;
   padding: 20px; 
   margin: 20px; 
   flex-basis: calc(30% - 40px); 
@@ -348,7 +347,7 @@ footer p {
 .contact-form input[type="text"],
 input[type="email"],
 textarea {
-  width: 30%;
+  width: 70%;
   padding: 50px;
   border: 1px solid #C9ADA7;
   border-radius: 5px;
