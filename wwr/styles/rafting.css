@@ -337,7 +337,7 @@ footer p {
 }
 
 .contact-form {
-  background-color: #9A8C98;
+  background-color: #C9ADA7;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
   padding: 20px; 
@@ -375,7 +375,7 @@ textarea {
 
 .contact-form button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #9A8C98;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -384,5 +384,5 @@ textarea {
 }
 
 button:hover {
-  background-color: #9A8C98;
+  background-color: steelblue;
 }
