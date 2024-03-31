@@ -271,7 +271,7 @@ footer p {
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
-  position: relative;
+  position: absolute;
   right: 50%;
   width: calc(50% - 40px);
 }
@@ -283,7 +283,7 @@ footer p {
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
-  position: relative;
+  position: absolute;
   right: 50%;
   width: calc(50% - 40px);
 }
