@@ -373,7 +373,7 @@ textarea {
 
 .contact-form button {
   padding: 10px;
-  background-color: #9A8C98;
+  background-color: steelblue;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -382,5 +382,5 @@ textarea {
 }
 
 button:hover {
-  background-color: steelblue;
+  background-color: #9A8C98;
 }
