@@ -245,6 +245,14 @@ footer p {
   margin: 10px;
 }
 
+.wireframe {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 .sociallinks {
   display: flex;
   gap: 10px;
@@ -384,12 +392,4 @@ textarea {
 
 button:hover {
   background-color: #9A8C98;
-}
-
-.wireframe {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  margin-right: 5px;
-  margin-left: 5px;
 }
