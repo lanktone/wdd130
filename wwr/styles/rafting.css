@@ -384,3 +384,7 @@ textarea {
 button:hover {
   background-color: steelblue;
 }
+
+.design {
+float:left
+}
