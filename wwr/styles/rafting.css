@@ -297,7 +297,7 @@ footer p {
 .contact {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 20% 5% 5% 5% 65%;
+  grid-template-rows: 15% 5% 5% 5% 70%;
   gap: 10px;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
@@ -320,7 +320,6 @@ footer p {
   grid-area: 5 / 1 / 6 / 2;
 }
 
-
 .contact-form h2 {
   font-family: var(--heading-font);
   color: #4A4E69;
@@ -336,8 +335,8 @@ footer p {
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
   width: 100%;
-  padding: 20px; 
-  margin: 20px; 
+  padding: 10px; 
+  margin: 10px; 
   grid-area: 1 / 2 / 6 / 3;
 }
 
@@ -355,7 +354,7 @@ footer p {
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 50px;
+  padding: 5px;
   border: 1px solid #C9ADA7;
   border-radius: 5px;
   box-sizing: border-box;
@@ -368,7 +367,7 @@ textarea {
 }
 
 .contact-form button {
-  padding: 10px 20px;
+  padding: 10px;
   background-color: #9A8C98;
   color: #fff;
   border: none;
