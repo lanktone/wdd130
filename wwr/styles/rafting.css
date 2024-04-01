@@ -297,7 +297,7 @@ footer p {
 .contact {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 20% 10% 10% 10% 20% 30%;
+  grid-template-rows: 20% 5% 5% 5% 65%;
   gap: 10px;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
@@ -317,7 +317,7 @@ footer p {
 }
 
 .google-map {
-  grid-area: 5 / 1 / 7 / 2;
+  grid-area: 5 / 1 / 6 / 2;
 }
 
 
@@ -338,7 +338,7 @@ footer p {
   width: 100%;
   padding: 20px; 
   margin: 20px; 
-  grid-area: 1 / 2 / 7 / 3;
+  grid-area: 1 / 2 / 6 / 3;
 }
 
 .form-group {
