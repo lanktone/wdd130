@@ -249,8 +249,7 @@ footer p {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin: 5px;
 }
 
 .sociallinks {
