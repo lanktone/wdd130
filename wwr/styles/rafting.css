@@ -386,10 +386,10 @@ button:hover {
   background-color: #9A8C98;
 }
 
-.a wireframe {
+.wireframe {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  flex: 1;
-  margin: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
