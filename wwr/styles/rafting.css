@@ -382,6 +382,8 @@ textarea {
 }
 
 .contact-form button {
+  position: absolute;
+  align-self: center;
   padding: 10px;
   background-color: steelblue;
   color: black;
@@ -433,6 +435,20 @@ textarea {
 .form-item input[type="radio"] + label {
   display: inline-block;
   font-weight: normal;
+}
+
+.form-item button {
+  padding: 1rem;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-item button:hover {
+  background-color: #9A8C98;
 }
 
 .hero button {
