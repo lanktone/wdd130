@@ -395,6 +395,38 @@ textarea {
   background-color: #9A8C98;
 }
 
+
+.form-item {
+  margin-bottom: 1rem;
+}
+
+.form-item label {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+  width: 100%;
+  padding: .6rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-item input[type="radio"] {
+  margin: 0 .5rem 0 .5rem;
+}
+
+.form-item input[type="radio"] + label {
+  display: inline-block;
+  font-weight: normal;
+}
+
+
+
 .hero button {
   position: absolute;
   top: 20%; 
@@ -517,7 +549,7 @@ caption {
   padding: 2rem;
 }
 
-.actions form h2 {
+.actions newsletter {
   background-color: #C9ADA7;
   border: 1px solid whitesmoke; 
   border-radius: 10px; 
