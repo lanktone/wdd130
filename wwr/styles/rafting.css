@@ -385,6 +385,7 @@ textarea {
   padding: 10px;
   background-color: steelblue;
   color: black;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
   cursor: pointer;
