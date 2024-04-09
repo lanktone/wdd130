@@ -408,7 +408,7 @@ textarea {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   transition: background-color 0.3s;
 }
 
@@ -557,6 +557,7 @@ caption {
   margin-bottom: .5rem;
   font-weight: bold;
   color: black;
+  font-size: 1.25rem;
 }
 
 .form-item input[type="text"],
