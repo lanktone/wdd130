@@ -431,15 +431,16 @@ textarea {
   align-items: center;
   margin-bottom: 2rem;
   border-color: var(--primary-color);
-  border-width: 5px;
+  border-width: 2px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 5px;
   overflow: hidden;
   background-color: var(--accent2-color);
+  padding: 1rem;
 }
 
 .card img {
-  width: 250px;
+  width: 200px;
   height: auto;
   object-fit: cover;
   padding: 1rem;
@@ -450,6 +451,7 @@ textarea {
   display: flex;
   flex-direction: column;
   background-color: #FDFCFBff;
+  margin-top: 0.5rem;
 }
 
 .card-content h2 {
@@ -553,7 +555,7 @@ caption {
   display: block;
   margin-bottom: .5rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: black;
 }
 
 .form-item input[type="text"],
@@ -603,7 +605,7 @@ caption {
 
 .funnel h2 {
   border-bottom: 2px solid var(--accent1-color);
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .funnel img {
