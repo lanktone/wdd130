@@ -269,47 +269,47 @@ footer p {
 }
 
 .employee-profiles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 10% 70% 20%;
 }
 
 .employee-profiles h2 {
   color: #4A4E69;
   justify-content: center;
-  text-align: center;
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 20px;
+  text-align: center; 
+  column-span: all;
+  grid-column: 1 / 4 ;
+  grid-row: 1 / 2 ;
 }
 
 .employee-profiles p {
   text-align: center;
-  font-size: 1.3rem;
-  line-height: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   padding: 8px;
+  grid-row: 3 / 4 ;
 }
 
 .employee {
   text-align: center;
   margin: 20px;
-  flex: 1 1 30%;
+  grid-row: 2 / 3 ;
 }
 
 .employee img {
-  max-width: 30%;
+  max-width: 33%;
   height: auto;
-  border-radius: 25%;
+  border-radius: 50%;
   margin-bottom: 10px;
 }
-
 
 .contact {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 15% 5% 5% 5% 70%;
   gap: 10px;
-  border: 1px solid whitesmoke; 
+  border: 1px solid #faf3eb; 
   border-radius: 10px; 
   padding: 20px; 
   margin: 20px; 
@@ -436,7 +436,7 @@ textarea {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 5px;
   overflow: hidden;
-  background-color: var(--accent2-color);
+  background-color: #faf3eb;
   padding: 1rem;
 }
 
@@ -445,25 +445,17 @@ textarea {
   height: auto;
   object-fit: cover;
   padding: 1rem;
-  background-color: #FDFCFBff;
+  background-color: #faf3eb;
 }
 
 .card-content {
   display: flex;
   flex-direction: column;
-  background-color: #FDFCFBff;
+  background-color: #faf3eb;
   margin-top: 0.5rem;
 }
 
 .card-content h2 {
-  font-weight: bold;
-  border-bottom: 2px solid var(--accent1-color);
-  padding-bottom: 0.5rem;
-}
-
-.card-content h3 {
-  background-color: white;
-  color: var(--secondary-color);
   font-weight: bold;
   border-bottom: 2px solid var(--accent1-color);
   padding-bottom: 0.5rem;
@@ -481,6 +473,47 @@ textarea {
   padding: 1rem;
 }
 
+.trips-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-color: var(--primary-color);
+  border-width: 2px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+
+.trips-card img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  padding: 1rem;
+  background-color: whitesmoke;
+}
+
+.trips-card content {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin-top: 0.5rem;
+}
+
+.trips-card figcaption h3 {
+  background-color: whitesmoke;
+  color: var(--secondary-color);
+  font-weight: bolder;
+  border-bottom: 2px solid var(--accent1-color);
+  padding: 0.5rem;
+}
+
+.trips-card figcaption {
+  padding: 20px;
+  margin: 0.5rem;
+  background-color: whitesmoke;
+}
 aside {
   padding: 1rem;
   border-radius: 5px;
@@ -499,7 +532,7 @@ table {
 }
 
 table, th, td {
-  border: 1px solid #ddd;
+  border: 1px solid var(--accent1-color);
 }
 
 th, td {
@@ -507,6 +540,11 @@ th, td {
   text-align: center;
 }
 
+th {
+  background-color: var(--accent1-color);
+  color:black;
+  border: 1px solid whitesmoke
+}
 
 caption {
   padding: 1rem;
