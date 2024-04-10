@@ -503,7 +503,7 @@ textarea {
 
 .trips-card figcaption h3 {
   background-color: whitesmoke;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: bolder;
   border-bottom: 2px solid var(--accent1-color);
   padding: 0.5rem;
