@@ -402,9 +402,8 @@ textarea {
   left:50%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #800000;
-  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -413,10 +412,19 @@ textarea {
   text-decoration: none;
   font-family: var(--heading-font);
   font-weight: bold;
+  display: inline-flex;
 }
 
 .hero-button:hover {
   background-color: var(--primary-color);
+}
+
+.hero-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-button a:hover {
   color: var(--secondary-color) !important;
 }
 
@@ -539,7 +547,7 @@ textarea {
   width: 300px;
   height: auto;
   object-fit: cover;
-  display: inline-block;
+  display: inline-flex;
   padding: 0;
   border: 3px solid var(--primary-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
